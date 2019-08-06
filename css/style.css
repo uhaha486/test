@@ -1,0 +1,575 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  main{
+    overflow: hidden;
+    border: 1px solid #fff;
+   /* margin-top:80px ;*/
+ 
+  }
+  h1, h2, h3, h4{
+    color: #222;
+  }
+  p, a{
+    color: #666;
+    line-height: 2em;
+  }
+  html, body{ height: 100%;}
+  body{
+    font-family: 'Open Sans', 'Nanum Gothic', sans-serif;
+    overflow-x: hidden;
+  }
+  a{ text-decoration: none;}
+  ul{ list-style-type: none;}
+  .container{
+    position: relative;
+    max-width: 1200px;
+    min-width: 768px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+  }
+  section{
+    overflow: hidden;
+    /* padding-bottom: 40px; */
+  }
+  section h2{ 
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-size: 32px;
+  }
+   /*navbar*/
+   .right-menu li{
+    display: inline-block;
+    margin-top: 30px !important;
+    }
+ .right-menu .fa{
+        font-size: 18px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+.navbar-brand{
+    position: absolute;
+    top:25px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.header{
+    background: #f5f6fc;
+    margin-bottom: 80px;
+}
+.navbar{
+    padding: 0 30px !important;
+}
+.navbar-toggler{
+    border:none !important;
+    outline: none !important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler .fa{
+  font-size: 30px;
+  cursor:pointer;
+}
+  #main-header{
+    position: absolute;
+    left: 0; right: 0; top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+  }
+  header h1 img{
+    width: 190px;
+  }
+  header h1{
+    position: absolute;
+    left: 0px; top: 20px;
+  }
+  header #main-menu{
+    position: absolute;
+    right: 0; top: 30px;
+    text-transform: uppercase;
+  }
+  #main-header {
+    background: rgba(0,0,0,0.3);
+    height: 80px;
+  }
+  header #main-menu ul li{
+    display: inline-block;
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+  header #main-menu ul li a{
+    font-size: 15px;
+    color: #fff;
+  }
+  header #main-menu ul li a:hover{
+    opacity: 0.7;
+  }
+  
+  
+  /* 0.visual */
+  .btn{
+    position: absolute;
+    top:90%;
+    left:50%;
+    transform: translate(-50%,0);
+    margin-top: 40px;
+  
+  }
+  .btn a{
+    color:#fff;
+    z-index: 9999;
+    font-size: 35px;
+   padding: 10px 20px;
+    background:  rgba(85, 98, 218, 0.671);
+    text-decoration: none;
+    opacity: 0.7;
+    transition: .3s;
+    border-radius: 4px;
+
+  }
+  .btn a:hover{
+    opacity:1;
+  }
+  #visual{
+    width: 100%;
+    height: 100%;
+    background: #ccc;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/19.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed !important;
+  
+  }
+  #visual .container{
+    position: relative;
+    height: 100%;
+    /* border: 1px solid red; */
+    
+  }
+  #visual .container .main-title{
+    position: absolute;
+    /* border: 1px solid red; */
+    color: #fff;
+    /* 텍스트 중앙 배치 */
+    text-align: center;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #visual .main-title h2{
+    color: #fff;
+    font-size: 56px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+  #visual .main-title p{
+    color: #ccc;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  }
+ 
+  
+  
+  /* 1.section - Blackfin(브랜드 소개) */
+ 
+  
+  
+  
+#brand{
+    margin: 100px;
+ }
+#brand .container{
+    text-align: center;
+    font-family:'나눔고딕';
+    line-height: 1.8em;
+    padding-left:20% ;
+    padding-right:20%;
+    
+}
+/*product caption*/
+
+/* product*/
+
+
+
+
+
+#prodcut{
+  margin-top: 100px;
+  border: 1px solid #000;
+}
+.products li{
+  float: left;
+}
+#product .container{
+  text-align: center;
+}
+#product .container .products{
+  width: 100%;
+}
+#product .container .products li{
+  float: left;
+  width: 32.33%;
+  margin-right: 1.5%;
+  height: 300px;
+  padding: 1em;
+}
+#product .container .products li:last-child{
+  margin-right: 0;
+}
+#product .container .products li img{
+  transform: scale(0.8);
+ 
+}
+
+#product .container .products li:hover img{
+  transform: scale(1.0);
+  transition: 0.4s;
+}
+#product .products h4{
+  font-weight: normal;
+  font-size: 18px;
+}
+/*new*/
+.pro-list{
+  margin: 0; padding: 0;
+ }
+ .products li{
+   position: relative;
+   float: left;
+   overflow: hidden;
+   top:0;
+
+ }
+ .products img{
+   margin: 0; padding: 0;
+   float: left;
+ }
+ .products .caption{
+  position: absolute;
+  top:300px;
+  width:320px;
+  height:200px;
+  background: rgba(0,0,0,0.4);
+  line-height: 200px;
+  transition:0.4s;
+  border-radius: 10px;
+ }
+ .products h4{ position: absolute;
+ top:25%; left:50%; 
+transform: translate(-50%,-50%);
+color:#fff}
+ .products li:hover .caption{
+  top:0;   
+  color:white;
+}
+.products .caption span{
+  font-size: 1.5em;
+}
+/*button*/
+
+
+ 
+
+
+/* #product .container ul.products li:hover
+{opacity:0.4;
+} */
+
+/*news*/
+#news{
+    margin-top: 100px;
+}
+#news .container{
+text-align: center;
+}
+#news .container ul.news-list li{
+    border: 1px solid #000;
+    width: 49.25%;
+    margin-right: 1.5%;
+    float: left;
+    height: 360px;
+}
+#news .container ul.news-list li:last-child{
+    margin-right: 0;
+    background: #666;
+   
+    background-image: url(../images/21.jpg);   
+   
+}
+#news h4{
+    font-size: 28px;
+    line-height: 360px;
+    color:#fff !important;
+
+    text-shadow:1px 2px 2px rgba(0,0,0,1);
+    z-index: 999;
+  
+   
+}
+#news h4:hover{
+ background: rgba(187, 145, 145, 0.616);
+
+
+}
+#news .container ul.news-list li:first-child{
+    background: #666;
+    background-image: url(../images/22.jpg);
+   }
+
+
+   /*SHOP*/
+#shop{
+    background: #ccc;
+ background-image: url(../images/3-2.png);
+ /*가로 16:9 혹은 4:3 사이즈는 1200이상의 이미지 1920*1080 사이즈 권장 */ 
+ background-size: cover;
+ background-position: center;
+ margin-top: 100px;
+ height: 500px;
+ background-attachment: fixed;
+ 
+}
+#shop .container{
+    text-align: center;
+}
+#shop h2{
+    height: 0;
+    overflow: hidden;
+   }
+.btn-normal{
+  display: inline-block;
+  border: 2px solid rgba(255,255,255,1);
+  font-size: 2em;
+  padding: 10px 64px;
+  color:white;
+  background-attachment: fixed;
+  transition: 0.4s
+
+}
+.btn-normal:hover{
+    border: 2px solid rgba(255,255,255,0.8);
+    color:rgba(0,0,0,0.8);
+    background: rgba(255,255,255,1);
+   
+}
+#shop .container .btn-normal{
+  margin-top: 160px;
+}
+
+
+/*sns*/
+#sns{
+    margin-top: 100px;
+    text-align: center;
+}
+#sns ul li{
+    width: 20%;
+   
+    float: left;
+}
+
+
+#sns ul li img{
+   width: 100%;
+   opacity: 0.5;
+}
+
+#sns ul li img:hover{
+    opacity:1;
+    transition:1s;
+}
+
+#main-footer .footer-logo a img{
+   width: 100%;
+}
+#footer{
+    padding: 50px 0;
+    margin-top: 100px;
+    background: #000;
+
+}
+#footer .container{
+    color:#ccc;
+}
+.main-footer img{
+background-color: #000;
+
+}
+
+#footer .main-footer a{
+    padding-right:10px;
+    padding-top: 10px;
+}
+
+/* SUB CSS*/
+#sub01 #product .container ul.products li:nth-child(3n) {
+  margin-right: 0;
+  margin-bottom: 80px;
+ 
+}
+#sub01 main, #buy main,#sub06 main{
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+
+#main-header {
+  background: rgba(0, 0, 0, 0.6);
+  height: 80px;
+}
+/*buy.html 구매하기 페이지*/
+#section-buy{
+overflow: hidden;
+margin-top: 100px;
+}
+#section-buy figure{
+width: 50%;
+float: left;
+padding-top: 100px;
+text-align: center;
+} 
+#section-buy .info-box{
+  width: 50%;
+  float: left;
+}
+#section-buy .info-box .price{
+  font-size: 20px;
+  line-height: 2em;
+}
+#section-buy .info-box .sub-price{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 15px;
+}
+#section-buy .info-box .sub-price .price{
+  font-size: 15px;
+  margin-bottom: 5em;
+}
+#section-buy .info-box .sub-price .title{
+  font-size: 15px;
+  margin-right: 5em;
+}
+/*수량*/
+#section-buy .info-box .quantity{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#section-buy .info-box .quantity .title{
+  display:block;
+  margin-bottom: 0.5em;
+}
+/*수량버튼*/
+#buy #section-buy .btn-group{
+/*border: 1px solid #ddd;*/
+overflow: hidden;
+margin-bottom: 2em;
+}
+#buy #section-buy .btn-group button, .btn-group #number{
+  float: left;
+  padding: 10px;
+  width: 3em;
+}
+#buy #section-buy .btn-group #number{
+ padding-left: 13px;
+
+}
+#buy #section-buy .btn-buy{
+padding: 14px 36px;
+border: none;
+background: #333;
+color: #fff;
+margin-right: 1em;
+}
+#buy #section-buy .btn-cart{
+  padding: 12px 32px;
+border:1px solid #333;
+background:transparent;
+color: #333;
+box-sizing: border-box;
+
+}
+#buy #section-buy .shop-caption{
+ margin-top: 2em;
+}
+
+/* sub06*/
+#sub06 #shops{
+  overflow: hidden;
+  margin-top: 100px;
+  
+
+}
+
+#sub06 #shops .container{
+  text-align: center;
+}
+#sub06 #shops .container p{
+  margin-bottom: 2em;
+}
+.btn-find{
+  background: transparent;
+  padding: 0.8em 2em;
+  border: 1px solid #ccc;
+  transition: 0.4s;
+  }
+  .btn-find:hover{
+    background: #000; color:#fff;
+  }
+  #map{
+    margin-top: 3em;
+  }
+
+  /*pop up*/
+  .popup{
+    position: absolute;
+    left: 800px; top: 100px;
+    width: 240px; height: 320px;
+    background: #fff;
+    padding: 10px;
+    display: none;
+    border: 1px solid #000;
+    text-align: center;
+  }
+  .popup.show{
+      display: block;
+  }
+  .box h2{
+    font-size: 1.5em;
+  }
+  .popup .box{
+    padding: 10px;
+    border: 2px solid #666;
+  }
+  .popup h2{ margin-bottom: 1em;}
+  .popup p{ 
+    line-height: 1.4;
+    margin-bottom: 0.8em;
+  }
+  .popup strong{ 
+    font-size: 1.4em;
+    color: red;
+  }
+  .popup .footer{
+    color: purple;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-top: 2px solid rgb(69, 117, 133);
+    padding-top: 5px;
+    margin-top: 2.4em;
+  }
+  .popup .bottom-close{
+    text-align: right;
+  }
+  .popup-container{
+          position: absolute;
+          left:0; top:0;
+          width: 1000px;
+          height: 600px;
+          left: 50%; top: 0;
+          transform: translate(-50%);
+      
+          z-index: 99}
+.btn-close{ background: transparent;
+           box-shadow: 1px 1px 1px; }
